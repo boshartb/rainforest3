@@ -1,3 +1,9 @@
 <h1>Products#show</h1>
-<p>Find me in app/views/products/show.html.erb</p>
+
+<p>
+  <b>Price in cents:</b>
+  <%= @product.formatted_price %>
+</p>
+
+
 <%= link_to 'Back', products_path %>
